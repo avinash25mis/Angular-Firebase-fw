@@ -1,0 +1,15 @@
+<p>day-list  </p>
+
+
+<tbody>
+    <tr *ngFor="let order of dayData">
+       <td (click)="deleteDay(order)">{{ order.payload.doc.id }}  <i class="material-icons">delete_forever</i></td>
+       <td>{{ order.payload.doc.data().orderNumber }}</td>
+       <td>{{ order.payload.doc.data().customerName }}</td>
+       <td><span 
+            *ngFor="let coffee of order.payload.doc.data().coffeeOrder">
+           {{ coffee }}
+          </span>
+       </td>
+    </tr>
+    </tbody>
