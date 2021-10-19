@@ -1,4 +1,4 @@
-# AngularFirebaseYoumee
+# An application with firebase and angular intergration for beginers in firebase and angular2+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
